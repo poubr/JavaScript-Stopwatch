@@ -1,0 +1,2 @@
+# Stopwatch
+Simple Javascript stopwatch.
