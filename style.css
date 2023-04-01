@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+}
+
+body {
+    background-color: #19376D;
+    padding-top: 20px;
+}
+
+
+.stopwatch {
+    display: grid;
+    justify-content: space-around;
+    align-content: center;
+    text-align: center;
+    gap: 3rem;
+}
+
+.header {
+    color: #AAC4FF;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.stopwatch-display {
+    border: 7px solid #0B2447;
+    color: #0B2447;
+    border-radius: 50%;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #A5D7E8;
+    font-size: 3.5rem;
+    font-weight: 500;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons > button {
+    background-color: #AAC4FF;
+    cursor: pointer;
+    font-size: 2 rem;
+    border: 2px solid #FAF7F0;
+    border-radius: 15px;
+    outline: none;
+    font-size: 1.5rem;
+    width: 10rem;
+    height: 4rem;
+    padding: 10px;
+    margin: 20px;
+}
+
+.buttons > button:hover {
+    background-color: #A5D7E8;
+}
